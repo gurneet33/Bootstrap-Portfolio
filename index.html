@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Bootstrap Basics</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
         crossorigin="anonymous">
@@ -14,7 +14,7 @@
             /* height: 60px; */
             /* width: 20%; */
             padding-top: 10px;
-    
+
 
         }
 
@@ -24,94 +24,76 @@
         } */
 
         .nav-link {
-        color: gray;
-    }
+            color: gray;
+        }
 
-    .active {
-        color:#4aaaa5;
-    }
+        .active {
+            color: #4aaaa5;
+        }
 
-    a:hover {
-        color: pink;
-    }
-    .bor {
-        border-right :2px solid gray;
-        border-left :2px solid gray;
-        border-radius: 2px;
-    }
+        a:hover {
+            color: pink;
+        }
 
-    .row{
-        margin-top: 50px;
-    }
-    .inhead{
-        left:100px;
-    }
+        .bor {
+            border-right: 2px solid gray;
+            border-left: 2px solid gray;
+            border-radius: 2px;
+        }
 
-    /* .menu {
+        .row {
+            margin-top: 50px;
+        }
+
+        .inhead {
+            left: 100px;
+        }
+
+        /* .menu {
         right:100px;
     } */
 
-    .card-text,.card-header{
-        color: black;
-    }   
-    .card-img-overlay {
-        border:0px;
-    }
+        .card-text,
+        .card-header {
+            color: black;
+        }
 
-    .midblock {
-        border: 1px solid #eeee;
-        width:70%;
-        height: 40%; 
-        padding-bottom: 20px;
-        margin-top:90px
-    }
-    .my-img {
-        float:left;
-        width:30%;
-        border:0px
-    }
-    
+        .card-img-overlay {
+            border: 0px;
+        }
+
+        .midblock {
+            border: 1px solid #eeee;
+            width: 70%;
+            height: 40%;
+            padding-bottom: 20px;
+            margin-top: 90px
+        }
+
+        .my-img {
+            float: left;
+            width: 30%;
+            border: 0px
+        }
     </style>
 </head>
 
 <body>
-        <!-- <nav id="myNavbar" class="navbar navbar-default navbar-inverse navbar-fixed-top" role="navigation">
-                Brand and toggle get grouped for better mobile display
-        <div class="container">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbarCollapse">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a class="navbar-brand" href="#">Tutorial Republic</a>
-                </div>
-                Collect the nav links, forms, and other content for toggling
-                <div class="collapse navbar-collapse" id="navbarCollapse">
-                    <ul class="nav navbar-nav">
-                        <li class="active"><a href="#" >About Me</a></li>
-                        <li><a href="#" >Portfolio</a></li>
-                        <li><a href="#" >Contact</a></li>
-                    </ul>
-                </div>
-            </div>
-        </nav> -->
     <div class="container-fluid ">
         <div class="row hthead ">
-            <div class="col-md-4 badge badge-primary inhead">
-                <h3>Gurneet Kaur</h3>
-            </div>
+            <nav class="col-md-4 navbar ">
+                <span class="navbar-brand mb-0 h1">Gurneet Kaur</span>
+            </nav>
             <div class="col-md-4 inhead offset-md-4">
                 <ul class="nav collapse-show">
                     <li class="nav-item">
-                        <a class="nav-link active" href="#">About</a>
+                        <a class="nav-link " href="#">About</a>
                     </li>
                     <li class="nav-item bor">
                         <a class="nav-link" href="#">Portfolio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
+                        <a class="nav-link active" href="#">Contact</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link disabled" href="#"></a>
@@ -122,17 +104,22 @@
     </div>
 
     <div class="card flex text-white">
-            <img class="card-img" src="./images/spring.png" alt="Card image">
-            <div class="card-img-overlay">
-                <div class="container midblock">
-              <h5 class="card-header bg-transparent ">About Me</h5>
-              <img class="img-thumbnail my-img" src= "./images/mine.jpg" alt= "my img">
-              <p class="card-text">I am a creative and adventurous person.I love singing, writing, cooking and most of all I love spending time with my kids.I find creating websites as a very rewarding task. With this assignment specifically I got to learn so much. Looking forward to more learning. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora vitae, ex dolor quisquam, sequi fugiat tempore sed maxime facere aliquam expedita eius, dolores quis! Iusto suscipit ea voluptatibus iure excepturi. 
+        <img class="card-img" src="./images/spring.png" alt="Card image">
+        <div class="card-img-overlay">
+            <div class="container midblock">
+                <h5 class="card-header bg-transparent ">About Me</h5>
+                <img class="img-thumbnail my-img" src="./images/mine.jpg" alt="my img">
+                <p class="card-text">I am a creative and adventurous person.I love singing, writing, cooking and most
+                    of all I love spending time with my kids.I find creating websites as a very rewarding task. With
+                    this assignment specifically I got to learn so much. Looking forward to more learning. Lorem, ipsum
+                    dolor sit amet consectetur adipisicing elit. Tempora vitae, ex dolor quisquam, sequi fugiat tempore
+                    sed maxime facere aliquam expedita eius, dolores quis! Iusto suscipit ea voluptatibus iure
+                    excepturi.
 
-              </p>
+                </p>
             </div>
-            </div>
-          </div>
+        </div>
+    </div>
 </body>
 
 </html>
