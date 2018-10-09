@@ -9,18 +9,19 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
         crossorigin="anonymous">
     <style>
-       .navbar {
-        left: 150px;
+    .nametag {
         background-color: #4aaaa5;
-        color:white;
         text-align: center;
-        padding-left: 120px;
+        color: white;
+        padding: 2%;
     }
-
+    .container {
+        margin-top: 4%;
+    }
     .nav-link {
         color: gray;
     }
-
+   
     .active {
         color:#4aaaa5;
     }
@@ -28,76 +29,54 @@
     a:hover {
         color: pink;
     }
-    .bor {
-        border-right :2px solid gray;
-        border-left :2px solid gray;
-        border-radius: 2px;
-    }
-
-    .row{
-        margin-top: 50px;
-    }
-
-    .card-text,.card-header{
-        color: black;
-    }
-    .card-header{
-        margin-bottom: 25px;
-    }
-    .card-img-overlay {
-        border:0px;
-    }
-
     .midblock {
         border: 1px solid #eeee;
         width:70%; 
         padding-bottom: 20px;
-        margin-top:90px
+        margin-top:90px;
+        color: black;
     }
     .my-img {
         float:left;
         width:20%;
         border:0px
     }
-
-    .form-group{
-        color: black;
+    .card {
+        margin-top:-8px;
+    
     }
-    .bg {
-        background-color: #4aaaa5;
-        color:white;
-        /* top:100px; */
-    }
-    .movetobottom{
-        top:70px;
+    .page-footer {
+        background-color: #666666;
+        border-top:5px solid #4aaaa5;
+        
     }
     </style>
 </head>
 
 <body>
-    <div class="container-fluid ">
-        <div class="row hthead ">
-            <nav class="col-md-4 navbar ">
-                <span class="navbar-brand mb-0 h3">Gurneet Kaur</span>
-            </nav>
-            <div class="col-md-4 inhead offset-md-4">
-                <ul class="nav collapse-show">
-                    <li class="nav-item">
-                        <a class="nav-link active" href="./index.html">About</a>
-                    </li>
-                    <li class="nav-item bor">
-                        <a class="nav-link" href="./portfolio.html">Portfolio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link " href="./contact.html">Contact</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link disabled" href="#"></a>
-                    </li>
-                </ul>
+        <div class="container">
+                <nav class="navbar navbar-expand-lg navbar-light">
+                    <div class="nametag">
+                    <h4>Gurneet Kaur</h4>
+                    </div>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="d-flex flex-row justify-content-end bd-highlight mb-3 collapse navbar-collapse" id="navbarNavDropdown">
+                        <ul class="nav navbar-nav navbar-right collapse navbar-collapse">
+                            <li class="p-2 nav-item ">
+                                <a class="nav-link active" href="#">About Me <span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="p-2 nav-item ">
+                                <a class="nav-link" href="#">Portfolio</a>
+                            </li>
+                            <li class="p-2 nav-item">
+                                <a class="nav-link" href="#">Contact</a>
+                        </ul>
+                    </div>
+                </nav>
             </div>
-        </div>
-    </div>
 
     <div class="card flex text-white">
         <img class="card-img" src="./Images/spring.png" alt="Card image">
