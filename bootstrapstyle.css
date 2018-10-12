@@ -1,0 +1,32 @@
+.nametag {
+ background-color: #4aaa;
+ color: white;
+ padding: 3%;
+}
+.navbar-toggler {
+    margin-left: 10%;
+}
+.midblock {
+    border: 1px solid #eeee;
+    position: absolute;
+    width:60%; 
+    padding-bottom: 20px;
+    margin-top:90px;
+    height: 30%;
+}
+.my-img {
+    float:left;
+    width:20%;
+    border:0px;
+    margin:0 2%;
+}
+a:hover {
+    color: pink;
+}
+.active{
+    color:#4aaa;
+}
+footer {
+    background-color: #6666;
+    border-top:5px solid #4aaaa5;
+}
